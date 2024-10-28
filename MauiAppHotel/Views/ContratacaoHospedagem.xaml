@@ -8,6 +8,7 @@
     
     <VerticalStackLayout VerticalOptions="CenterAndExpand"
                          Padding="10">
+
         <Label 
             Text="Cálculo da Diária" 
             FontFamily="Kalam" 
@@ -79,7 +80,10 @@
 
                 </Frame>
 
-                <Button Text="Avançar"  />
+                <Button Text="Avançar"
+                        />
+
+                
 
 
             </VerticalStackLayout>
