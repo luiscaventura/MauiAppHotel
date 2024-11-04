@@ -67,10 +67,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Fonts\EBGaramond-Bold.ttf" />
 	  <None Remove="Resources\Fonts\Kalam-Bold.ttf" />
 	  <None Remove="Resources\Fonts\Kalam-Light.ttf" />
 	  <None Remove="Resources\Fonts\Kalam-Regular.ttf" />
 	  <None Remove="Resources\Fonts\Streetwear.otf" />
+	  <None Remove="Resources\Fonts\timesbd.ttf" />
+	  <None Remove="Resources\Images\hotel_logo.png" />
 	  <None Remove="Resources\Images\luis_ventura.png" />
 	</ItemGroup>
 
@@ -82,6 +85,9 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="Views\ContratacaoHospedagem.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Home.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\HospedagemContratada.xaml">
