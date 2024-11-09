@@ -9,6 +9,14 @@
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
             </ResourceDictionary.MergedDictionaries>
+
+            <Style TargetType="Label">
+                
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+                <Setter Property="Spacing" Value="10" />
+
+            </Style>
+            
         </ResourceDictionary>
     </Application.Resources>
 </Application>
